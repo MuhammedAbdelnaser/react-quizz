@@ -1,4 +1,3 @@
-import React from 'react'
 
 function Options({ question, dispatch, answer }) {
     const hasAnswered = answer !== null
