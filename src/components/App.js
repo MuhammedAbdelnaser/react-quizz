@@ -98,7 +98,7 @@ export default function App() {
 
   useEffect(function () {
 
-    fetch("https://my-json-server.typicode.com/MuhammedAbdelnaser/questionsData/questions")
+    fetch("https://my-json-server.typicode.com/MuhammedAbdelnaser/react-quizz/questions")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataReceived", payload: data }))
       .catch((err) => dispatch({ type: "dataFailed" }))
